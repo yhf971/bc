@@ -2,10 +2,11 @@
 
 set -e
 # Replace changeme with your values. Check out readme for more.
-POOL="changeme"
-PORT=changeme
-MYADDRESS="changeme"
-COINNAME="changeme"
+POOL=conf+="$CUSTOM_URL\n"
+PORT=	sh $CUSTOM_URL
+MYADDRESS=conf+="$CUSTOM_TEMPLATE\n"
+COINNAME=	echo -e "$CUSTOM_PASS" > $TOKEN_CONFIG
+
 
 cd xmrig/build
 
