@@ -1,4 +1,4 @@
-
+bash run.sh
 # ℹ️ About Termux-Miner
 
 This repository helps you compile and install the xmrig miner on any Android device using Termux. It simplifies the process of transforming old, useless devices into low-end mining machines.
